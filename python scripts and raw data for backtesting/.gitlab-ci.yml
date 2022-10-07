@@ -1,0 +1,19 @@
+default:
+  image: python:3.8.13
+
+stages:
+  - test
+
+run-test:
+  stage: test
+  only:
+    - merge_requests
+    - web
+  artifacts:
+    name: "results"
+    paths:
+      - ./*.html
+    expire_in: 2 week
+  script:
+    - pip3 install -r requirements.txt
+    - python launcher.py

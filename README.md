@@ -1,2 +1,6 @@
-# ai-crypto-trading
-an AI Approach for Signal Generation in Cryptocurrencies Trading with Big Data
+# MSc CS Project: An AI Approach for Signal Detection in Cryptocurrencieswith Big Data
+## Abstract
+Ethereum's market cap is USD 363.11 million as of 2022. It is one of the largest capital and liquidity cryptocurrency markets. It has also become an increasingly popular alternative and attractive asset for investment recently. In this project, we aim to create an advanced trading strategy by applying big data with machine learning models. We used Ethereum Future, Bitcoin, VOO and QQQ candlestick data, Twitter social media data, fear and greed index data, and technical indicators to develop 6 machine learning models, including CNN, KNN, MLP, LSTM, RF, and XGB. Apart from these, we have also backtested traditional rule-based strategies like SMA crossover and Bolling band and attempted to combine different models. In general, we found that some of the machine learning models, and traditional models can generate positive results. However, machine learning tends to have a higher trade frequency than traditional rule-based models. Thus, when the trading fee increase, the return from machine learning models will decrease or even losing money. 
+
+## Project Report
+[Download](./MScCS%20Project%20Report.docx)
